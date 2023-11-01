@@ -26,7 +26,7 @@ _MODEL_REGISTRY = {
     "InternLMForCausalLM": InternLMForCausalLM,
     "LlamaForCausalLM": LlamaForCausalLM,
     "LLaMAForCausalLM": LlamaForCausalLM,  # For decapoda-research/llama-*
-    "MistralForCausalLM": MistralForCausalLM,
+    #"MistralForCausalLM": MistralForCausalLM,
     # transformers's mpt class has lower case
     "MptForCausalLM": MPTForCausalLM,
     "MPTForCausalLM": MPTForCausalLM,
@@ -38,7 +38,7 @@ _MODEL_REGISTRY = {
 # FIXME(woosuk): Remove this once all models support quantization.
 _MODEL_CLASSES_SUPPORT_QUANTIZATION = [
     LlamaForCausalLM,
-    MistralForCausalLM,
+    #MistralForCausalLM,
 ]
 
 
