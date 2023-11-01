@@ -33,6 +33,7 @@ _MODEL_REGISTRY = {
     "MptForCausalLM": MPTForCausalLM,
     "MPTForCausalLM": MPTForCausalLM,
     "OPTForCausalLM": OPTForCausalLM,
+    "ChatGLMModel": ChatGLMModel,
     "QWenLMHeadModel": QWenLMHeadModel,
     "RWForCausalLM": FalconForCausalLM,
 }
