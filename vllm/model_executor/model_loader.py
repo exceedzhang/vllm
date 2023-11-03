@@ -42,6 +42,7 @@ _MODEL_REGISTRY = {
 _MODEL_CLASSES_SUPPORT_QUANTIZATION = [
     LlamaForCausalLM,
     #MistralForCausalLM,
+    AquilaForCausalLM,
 ]
 
 
